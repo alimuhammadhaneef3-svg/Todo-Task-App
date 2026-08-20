@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   background-color: rgb(46, 46, 31);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.new{
+    background-color: burlywood;
+    width: 500px;
+    border-radius: 30px;
+}
+.isit{
+    background-color: rgb(138, 97, 22);
+     border-radius: 30px;
+     padding-top: 25px;
+}
+.head h2{
+   color: white;
+    display: block;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+.have{
+  margin-top: 40px;
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+    font-size: larger;
+}
+li {
+    display: flex;
+    align-items: center;
+}
+
+li button {
+    margin-left: 8px;
+    cursor: pointer;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+li button:first-of-type {
+    margin-left: auto;
+}
+.edit{
+    float: right;
+    cursor: pointer;
+    padding: 5px 6px;
+    border: none;
+    border-radius: 5px;
+}
+.completed{
+    text-decoration: line-through;
+    opacity: 5;
+    text-decoration-color: chartreuse;
+    text-decoration-style: solid;
+    text-decoration-thickness: unset;
+}
+.put input{
+    display: flex;
+    padding: 10px;
+    margin-right: 12px;
+    border-color: black;
+    border-radius: 8px;
+}
+.Add button{
+  background-color: rgb(49, 164, 164); 
+  padding: 8px; 
+  font-size: larger;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.Add:hover{
+    background-color: beige;
+    color: white;
+}
+.items{
+    text-decoration: none;
+    font-size: large;
+    
+}
+.items ul {
+    padding: 20px;
+    margin: 10px;
+    
+}
+.items ul li{
+    padding: 5px;
+    list-style: none;
+    margin: 7px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+cursor: pointer;
+}
+.items ul li:hover{
+    background-color: rgb(66, 162, 66);
+    transform: scaleX(.9);
+    transition: 1.3s;
+    border-radius: 30px;
+}
