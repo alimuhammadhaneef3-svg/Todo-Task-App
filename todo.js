@@ -4,7 +4,7 @@ const todolist=document.getElementById("todolist");
 
 
 
-addbtn.addEventListener('click',()=>{
+addbtn.addEventListener('click',()=>{ //callback function
     const task=input.value.trim();
     if(task===""){
         return;
@@ -17,6 +17,7 @@ addbtn.addEventListener('click',()=>{
 
     const deletebtn= document.createElement("button")
     deletebtn.textContent='Delete';
+    
     li.appendChild(editbtn);
 
     li.appendChild(deletebtn);

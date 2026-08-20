@@ -58,6 +58,7 @@ li button:first-of-type {
     float: right;
     cursor: pointer;
     padding: 5px 6px;
+    
     border: none;
     border-radius: 5px;
 }
